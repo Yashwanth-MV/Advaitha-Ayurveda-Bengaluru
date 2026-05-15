@@ -17,7 +17,7 @@ export default function ContactSection() {
   };
 
   const validate = () => {
-    let newErrors = { name: "", email: "", phone: "" };
+    const newErrors = { name: "", email: "", phone: "" };
     let isValid = true;
 
     if (!form.name) { newErrors.name = "Full name is required"; isValid = false; }

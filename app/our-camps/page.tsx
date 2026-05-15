@@ -80,7 +80,7 @@ export default function OurCamps() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    let newErrors = { name: "", phone: "" };
+    const newErrors = { name: "", phone: "" };
     if (!form.name) newErrors.name = "Name is required";
     if (!form.phone) newErrors.phone = "Phone number is required";
     

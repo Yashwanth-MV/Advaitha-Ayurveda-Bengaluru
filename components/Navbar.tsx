@@ -43,7 +43,7 @@ export default function Navbar() {
     }
   }, [isOpen]);
 
-  const handleToggle = (e: any) => {
+  const handleToggle = (e: React.MouseEvent | React.KeyboardEvent) => {
     e.preventDefault();
     e.stopPropagation();
     setIsOpen(!isOpen);
