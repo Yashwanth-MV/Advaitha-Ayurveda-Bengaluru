@@ -5,10 +5,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'framerusercontent.com',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "framerusercontent.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
